@@ -4,7 +4,7 @@ import UnityImg from '../assets/images/unity.png'
 
 const Feature = () => {
   return (
-    <div className='md:px-14 font-poppins my-10 md:mt-20'>
+    <div className='md:px-14 font-poppins my-10 md:mt-20' id='about'>
         <div className='flex flex-col md:flex-row md:items-center md:space-x-12'>
             <div className='flex flex-col md:w-1/2 md:py-20'>
                 <img src={BigStar} alt="" className='w-10' />

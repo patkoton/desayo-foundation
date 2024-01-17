@@ -4,7 +4,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const Services = () => {
   return (
-    <div className='md:px-14 font-poppins my-12 md:my-20 text-black'>
+    <div className='md:px-14 font-poppins my-12 md:my-20 text-black' id='work'>
         <div className=''>
             <h1 className='text-3xl md:text-4xl font-medium text-center'>Discover Our Life-Transforming Services</h1>
             <div className='flex flex-col md:flex-row md:items-center md:space-x-6 text-black mt-7'>
