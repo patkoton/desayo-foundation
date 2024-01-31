@@ -3,7 +3,7 @@ import { contactDetails } from '../data'
 
 const Contact = () => {
   return (
-    <div className='md:px-14 font-poppins mt-6 mb-12 md:my-20 text-black' id='contact'>
+    <div className='md:px-14 font-poppins -mt-6 mb-5 md:mb-6 md:mt-20 text-black' id='contact'>
         <div className='flex flex-col md:flex-row md:space-x-10 md:items-center'>
             {contactDetails.map((item) => {
                 return <div className='flex flex-col md:w-1/3 mt-6 md:mt-0'>
