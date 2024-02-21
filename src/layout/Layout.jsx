@@ -62,7 +62,7 @@ export default function Layout(props) {
             <div className="relative flex h-6 md:h-20 items-center justify-around">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black focus:rounded-full focus:p-2">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-purple hover:text-purple focus:outline-none focus:ring-2 focus:ring-inset focus:text-purple focus:rounded-full focus:p-2">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -122,10 +122,10 @@ export default function Layout(props) {
                 </NavLink>
               ))}
               <div className='pl-2'>
-                <Button children='Donate' className='text-black font-medium px-2' />
+                <Button children='Donate' className='text-purple font-medium px-2' />
               </div>
               <div className='pl-2 pt-2'>
-                <Button children='Volunteer' className='text-black font-medium px-2' />
+                <Button children='Volunteer' className='text-purple font-medium px-2' />
               </div>
             </div>
           </Disclosure.Panel>
