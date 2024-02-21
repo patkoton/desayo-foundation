@@ -28,7 +28,7 @@ const Benefit = () => {
                     })}
                 </div>
                 <div className='flex mt-7 gap-4 md:gap-6'>
-                    <Button children='Learn More' className='text-black font-normal px-4 md:px-6' />
+                    <Button children='Learn More' className='text-black font-normal px-2 md:px-6' />
                     <button className='flex items-center gap-2 cursor-pointer outline-none transition-all font-poppins font-normal text-base md:text-lg'>Volunteer <GoArrowRight /></button>
                 </div>
             </div>

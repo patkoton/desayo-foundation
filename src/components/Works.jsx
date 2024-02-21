@@ -16,7 +16,7 @@ const Works = () => {
                     <p className='text-sm md:text-base font-light mt-2.5'>At our organization, we have a well-defined process to provide assistance to people in need. We believe in making a positive impact on their lives and restoring hope.</p>
                     <div className='flex justify-center'>
                         <div className='flex mt-4 md:mt-7 gap-4 md:gap-6'>
-                            <Button children='Learn More' className='text-black font-normal px-4 md:px-6' />
+                            <Button children='Learn More' className='text-black font-normal px-2 md:px-6' />
                             <button className='flex items-center gap-2 cursor-pointer outline-none transition-all font-poppins font-normal text-base md:text-lg'>Volunteer <GoArrowRight /></button>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const Works = () => {
                     <p className='text-sm md:text-base font-light mt-2.5'>We are dedicated to helping our community by providing compassionate support to those who are facing difficult times. Our team works tirelessly to ensure that everyone receives the help they need.</p>
                     <div className='flex justify-center'>
                         <div className='flex mt-4 md:mt-7 gap-4 md:gap-6'>
-                            <Button children='Learn More' className='text-black font-normal px-4 md:px-6' />
+                            <Button children='Learn More' className='text-black font-normal px-2 md:px-6' />
                             <button className='flex items-center gap-2 cursor-pointer outline-none transition-all font-poppins font-normal text-base md:text-lg'>Volunteer <GoArrowRight /></button>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const Works = () => {
                     <p className='text-sm md:text-base font-light mt-2.5'>We believe in the power of hope and empowerment to transform lives. Through our programs and initiatives, we aim to provide individuals with the tools and support they need to create a better future.</p>
                     <div className='flex justify-center'>
                         <div className='flex mt-4 md:mt-7 gap-4 md:gap-6'>
-                            <Button children='Learn More' className='text-black font-normal px-4 md:px-6' />
+                            <Button children='Learn More' className='text-black font-normal px-2 md:px-6' />
                             <button className='flex items-center gap-2 cursor-pointer outline-none transition-all font-poppins font-normal text-base md:text-lg'>Volunteer <GoArrowRight /></button>
                         </div>
                     </div>

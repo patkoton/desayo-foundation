@@ -22,7 +22,8 @@ module.exports = {
       'black': '#000',
       'grey': '#D9D9D9',
       'grad1': 'rgba(30, 30, 30, 0.39)',
-      'grad2': 'rgba(30, 30, 30, 0.39)'
+      'grad2': 'rgba(30, 30, 30, 0.39)',
+      'overlay': '#1E1E1E63'
     }
   },
   plugins: [],

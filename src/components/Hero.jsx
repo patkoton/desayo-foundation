@@ -11,8 +11,8 @@ const Hero = () => {
                     <p className='font-normal text-lg md:text-xl my-7'>Join us in our mission to provide compassion and restore hope to those in need.</p>
                     <div className='w-full flex justify-center'>
                         <div className='flex gap-4 md:gap-10'>
-                            <Button children='Learn More' className='text-black font-medium px-4 md:px-6' />
-                            <Button children='Volunteer' className='bg-black text-white font-normal px-4 md:px-6' />
+                            <Button children='Learn More' className='text-black font-medium px-2 md:px-6' />
+                            <Button children='Volunteer' className='bg-black text-white font-normal px-2 md:px-6' />
                         </div>
                     </div>
                 </div>

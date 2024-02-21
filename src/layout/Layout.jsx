@@ -122,10 +122,10 @@ export default function Layout(props) {
                 </NavLink>
               ))}
               <div className='pl-2'>
-                <Button children='Donate' className='text-black font-medium px-4' />
+                <Button children='Donate' className='text-black font-medium px-2' />
               </div>
               <div className='pl-2 pt-2'>
-                <Button children='Volunteer' className='text-black font-medium px-4' />
+                <Button children='Volunteer' className='text-black font-medium px-2' />
               </div>
             </div>
           </Disclosure.Panel>
