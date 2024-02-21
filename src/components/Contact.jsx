@@ -23,7 +23,7 @@ const Contact = () => {
             <IoLocationOutline size={24} />
             <h4 className='text-xl md:text-2xl font-semibold mt-2.5'>Office</h4>
             <h6 className='text-sm md:text-base font-light mt-2.5'>Visit our office during business hours.</h6>
-            <p className='text-sm md:text-base font-normal mt-2.5'>Plot 34, Falana drive, Ondo State</p>
+            <p className='text-sm md:text-base font-normal mt-2.5'>52, Ajerogun Street, Ode-Irele, Ondo State</p>
           </div>
         </div>
     </div>
