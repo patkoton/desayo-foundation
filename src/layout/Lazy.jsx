@@ -2,7 +2,7 @@
 const Lazy = () => {
     return (
         <div className='w-screen h-screen flex justify-center items-center'>
-            <h1 className='text-black text-4xl'>Logo</h1>
+            <h1 className='text-purple font-semibold text-4xl'>Logo</h1>
         </div>
     )
   }

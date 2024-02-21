@@ -3,6 +3,7 @@ import BlackWImg from '../assets/images/black_women.png'
 import { empowerment } from '../data'
 import Button from '../elements/Button'
 import { GoArrowRight } from "react-icons/go";
+import { IoStar } from "react-icons/io5";
 
 const Benefit = () => {
   return (
@@ -20,7 +21,7 @@ const Benefit = () => {
                     {empowerment.map((item) => { 
                         return  <div className='flex w-1/2'>
                                     <div>
-                                        <img src={item.image} alt="" className='' />
+                                        <IoStar className="text-purple" size={24} />
                                         <h4 className='text-lg md:text-2xl font-medium mt-2.5'>{item.section}</h4>
                                         <p className='text-base md:text-lg font-light mt-2.5'>{item.description}</p>
                                     </div>
@@ -28,8 +29,8 @@ const Benefit = () => {
                     })}
                 </div>
                 <div className='flex mt-7 gap-4 md:gap-6'>
-                    <Button children='Learn More' className='text-black font-normal px-2 md:px-6' />
-                    <button className='flex items-center gap-2 cursor-pointer outline-none transition-all font-poppins font-normal text-base md:text-lg'>Volunteer <GoArrowRight /></button>
+                    <Button children='Learn More' className='text-purple font-normal px-2 md:px-6' />
+                    <button className='flex items-center gap-2 cursor-pointer outline-none transition-all font-poppins font-normal text-base text-purple md:text-lg'>Volunteer <GoArrowRight size={24} className='text-purple' /></button>
                 </div>
             </div>
         </div>

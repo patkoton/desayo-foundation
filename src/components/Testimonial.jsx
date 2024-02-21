@@ -1,5 +1,6 @@
 import React from 'react'
 import { testimonial } from '../data'
+import { IoStar } from "react-icons/io5";
 
 const Testimonial = () => {
   return (
@@ -10,15 +11,15 @@ const Testimonial = () => {
             {testimonial.map((item)  => {
                 return <div className='flex flex-col md:w-1/2 mt-5 md:mt-0'>
                     <div className='flex items-center gap-2 mt-5'>
-                        <img src={item.image1} alt="" />
-                        <img src={item.image1} alt="" />
-                        <img src={item.image1} alt="" />
-                        <img src={item.image1} alt="" />
-                        <img src={item.image1} alt="" />
+                        <IoStar className="text-yellow" size={24} />
+                        <IoStar className="text-yellow" size={24} />
+                        <IoStar className="text-yellow" size={24} />
+                        <IoStar className="text-yellow" size={24} />
+                        <IoStar className="text-yellow" size={24} />
                     </div>
                     <h4 className='text-lg md:text-xl font-semibold mt-5'>The organization has truly changed my mind,I am forever grateful.</h4>
                     <div className='flex items-center gap-2 mt-5'>
-                        <img src={item.image2} alt="" />
+                        <img src={item.image1} alt="" />
                         <div>
                             <h6 className='text-lg md:text-xl font-normal'>{item.name}</h6>
                             <p className='text-sm md:text-base font-light'>{item.role}</p>

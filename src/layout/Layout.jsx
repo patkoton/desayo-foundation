@@ -18,9 +18,9 @@ const navigation = [
   { name: 'Contact', href: '/#contact' },
 ]
 const footer = [
-    { name: 'Home', href: '/' },
+  { name: 'Home', href: '/' },
   { name: 'About', href: '/#about' },
-  { name: 'Our Work', href: '/#work' },
+  { name: 'Work', href: '/#work' },
   { name: 'Blog', href: '/#blog' },
   { name: 'Contact', href: '/#contact' },
 ]
@@ -95,10 +95,10 @@ export default function Layout(props) {
                       </NavLink>
                     ))}
                     <div className='md:ml-10'>
-                      <Button children='Donate' className='text-black font-medium px-4' />
+                      <Button children='Donate' className='text-purple font-medium px-4' />
                     </div>
                     <div className='md:ml-10'>
-                      <Button children='Volunteer' className='text-black font-medium px-4' />
+                      <Button children='Volunteer' className='text-purple font-medium px-4' />
                     </div>
                   </div>
                 </div>
@@ -149,14 +149,17 @@ export default function Layout(props) {
             </Link>
             <p className='text-sm md:text-base font-light md:w-96 mt-2.6'>Our organization is dedicated to making a positive impact in the community by providing support, resources, and opportunities for those in need. Through our compassionate and hope-restoring efforts, we aim to empower individuals and transform lives.</p>
             <h6 className='text-sm md:text-base font-medium mt-7'>Contact:</h6>
-            <Link to='' className='text-sm md:text-base font-normal mt-2.5'>info@faithbasedngo</Link>
+            <div className='flex gap-2 mt-2.5'>
+              <p className='text-sm md:text-base font-normal'>+2347863769438</p>
+              <Link to='mailto:info@faithbasedngo?body=Hello!' className='text-sm md:text-base font-normal'>info@faithbasedngo</Link>
+            </div>
             <div className='flex gap-2 md:gap-3 mt-7'>
               {icon.map((item) => (
                 <div className='flex items-center'>
                   <Link
                     to={item.href}
                     className=
-                      'px-1 text-base md:text-lg text-black font-normal'
+                      'px-1 text-base md:text-lg text-lemon font-normal'
                   >
                     {item.icon}
                   </Link>
