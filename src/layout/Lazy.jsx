@@ -1,13 +1,11 @@
+import Logo from '../assets/images/delsayo_white_bg_logo.png'
 
 const Lazy = () => {
     return (
         <div className='w-screen h-screen flex justify-center items-center'>
-            <h1 className='text-purple font-semibold text-5xl'>Logo</h1>
+            <img alt='DELSAYO' src={Logo} className='h-24 md:h-32' />
         </div>
     )
   }
   
 export default Lazy
-
-
-// <img alt='Lazy Loader Logo' src={Logo} className='w-20 md:w-40' />

@@ -23,9 +23,9 @@ module.exports = {
       'grey': '#D9D9D9',
       'grad1': 'rgba(30, 30, 30, 0.39)',
       'grad2': 'rgba(30, 30, 30, 0.39)',
-      'purple': '#8846DD',
-      'yellow': '#FFD700',
-      'lemon': '#9DCD3D',
+      'purple': '#810281',
+      'yellow': '#FFD657',
+      'lemon': '#8DC313',
       'overlay': '#1E1E1E63'
     }
   },

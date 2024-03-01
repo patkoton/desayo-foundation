@@ -6,7 +6,7 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 import { FiFacebook } from 'react-icons/fi'
 import { FaXTwitter } from 'react-icons/fa6'
 import { FiYoutube, FiLinkedin } from "react-icons/fi";
-// logo from '../assets/images/getlinked.png'
+import Logo from '../assets/images/delsayo_white_bg_logo.png'
 import '../App.css'
 import Button from '../elements/Button'
 
@@ -23,6 +23,10 @@ const footer = [
   { name: 'Work', href: '/#work' },
   { name: 'Blog', href: '/#blog' },
   { name: 'Contact', href: '/#contact' },
+]
+const footer2 = [
+  { name: 'Donate', href: '/' },
+  { name: 'Volunteer', href: '/' },
 ]
 const icon = [
   { icon: <AiOutlineInstagram />, href: 'https://www.instagram.com/' },
@@ -74,7 +78,7 @@ export default function Layout(props) {
               <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <NavLink to='/'>
-                    <h1 className='text-2xl text-semibold text-black'>LOGO</h1>
+                    <img className="block h-24 md:h-32 w-auto" src={Logo} alt="DELSAYO" />
                   </NavLink>
                 </div>
               </div>
@@ -142,10 +146,10 @@ export default function Layout(props) {
 
     {/* FOOTER */}
     <footer className='bg-transparent text-black px-5 md:px-14 font-poppins py-5 md:py-10 '>
-        <div className='flex flex-col md:flex-row md:justify-between md:items-start'>
+        <div className='flex flex-col md:flex-row md:justify-between md:items-center'>
           <div>
             <Link to='/'>
-              <h1 className='text-xl md:text-2xl text-semibold'>LOGO</h1>
+              <img className="block h-24 md:h-32 w-auto" src={Logo} alt="DELSAYO" />
             </Link>
             <p className='text-sm md:text-base font-light md:w-96 mt-2.6'>Our organization is dedicated to making a positive impact in the community by providing support, resources, and opportunities for those in need. Through our compassionate and hope-restoring efforts, we aim to empower individuals and transform lives.</p>
             <h6 className='text-sm md:text-base font-medium mt-7'>Contact:</h6>
@@ -167,7 +171,7 @@ export default function Layout(props) {
               ))}
             </div>
           </div>
-          <div className='flex flex-row items-center mt-7 md:mt-0 gap-10'>
+          <div className='flex flex-row items-start mt-7 md:mt-0 gap-10'>
             <div className='flex flex-col'>
               {footer.map((item) => (
                 <Link
@@ -181,7 +185,7 @@ export default function Layout(props) {
               ))}
             </div>
             <div className='flex flex-col'>
-              {footer.map((item) => (
+              {footer2.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
